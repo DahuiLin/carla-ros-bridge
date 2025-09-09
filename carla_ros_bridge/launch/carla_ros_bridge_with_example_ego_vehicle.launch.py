@@ -28,7 +28,7 @@ def generate_launch_description():
         ),
         launch.actions.DeclareLaunchArgument(
             name='spawn_point',
-            default_value='None'
+            default_value='37.28,-3.42,0,0,0,0'
         ),
         launch.actions.DeclareLaunchArgument(
             name='town',
