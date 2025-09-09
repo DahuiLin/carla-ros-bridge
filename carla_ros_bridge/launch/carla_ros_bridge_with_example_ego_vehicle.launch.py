@@ -32,7 +32,7 @@ def generate_launch_description():
         ),
         launch.actions.DeclareLaunchArgument(
             name='town',
-            default_value='Town01'
+            default_value='Town03_Opt'
         ),
         launch.actions.DeclareLaunchArgument(
             name='passive',
@@ -40,7 +40,7 @@ def generate_launch_description():
         ),
         launch.actions.DeclareLaunchArgument(
             name='synchronous_mode_wait_for_vehicle_control_command',
-            default_value='False'
+            default_value='True'
         ),
         launch.actions.DeclareLaunchArgument(
             name='fixed_delta_seconds',
